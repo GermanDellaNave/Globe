@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Mi Modelo 3D</title>
+   <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+</head>
+<body>
+   <model-viewer
+       src="https://github.com/GermanDellaNave/Globe/releases/download/World/Earth_1_12756.glb"
+       alt="Descripción de tu modelo 3D"
+       auto-rotate
+       camera-controls
+   ></model-viewer>
+</body>
+</html>
